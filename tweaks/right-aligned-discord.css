@@ -1,0 +1,48 @@
+/* moves sidebar and servers nav to the right properly */
+
+div[class^="listItem_"]>div[class^="pill_"] {
+    left: unset;
+    right: 0;
+}
+div[class^="listItem_"]>div[class^="pill_"] span {
+    border-radius: 4px;
+    margin-left: 0;
+    width: 4px;
+}
+
+div[class*="baseLayer_"]>div[class^="container_"] {
+    flex-direction: row-reverse;
+}
+
+div[class*=container] div[class*=base]:not([class*=baseLayer]):not([class*=member]):not([class*=typing]):not([class*=numberBadge]) {
+    padding-right: 0;
+    padding-left: 16px;
+}
+
+div[class^="container_"]>div[class^="base"]>div[class^="content"] {
+    flex-direction: row-reverse;
+}
+
+div[class^="chat_"]>[class^="header_"]+[class^="content"] {
+    flex-direction: column;
+}
+
+div[class^="chat_"]>div[class^="content_"] {
+    flex-direction: row-reverse;
+}
+
+div[class*=content_]>div[class*=sidebar] {
+    margin-right: 0px;
+    margin-left: 16px;
+}
+
+div[class*=members], div[class*=userPanelOuter] {
+    margin-left: 0;
+    margin-right: 16px;
+}
+
+div[id^="popout_"]:has([aria-label="Pinned Messages"]),
+div[id^="popout_"]:has([class^="browser"]),
+div[id^="popout_"]:has([id="emoji-picker-tab-panel"]) {
+    transform: translateX(70%);
+}

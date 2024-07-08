@@ -1,0 +1,20 @@
+/* makes the sidebar resizable */
+
+:root {
+    /* set your width that the sidebar will default to */
+    --side-default-width: 160px;
+}
+div[class*=sidebar] {
+    min-width: 160px;
+    max-width: 240px;
+    width: var(--side-default-width);
+    resize: horizontal; 
+    overflow: auto;
+}
+div[class^="avatarWrapper_"] {
+    max-width: max-content;
+    min-width: 20px;
+}
+section[class^="panels_"] div[class^="container_"] {
+    justify-content: space-between;
+}
