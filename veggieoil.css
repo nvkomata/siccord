@@ -384,6 +384,7 @@
     --yellow-830: var(--vo-accent-yellow);
     --yellow-860: var(--vo-accent-yellow);
     --yellow-900: var(--vo-accent-yellow);
+    --embed-title: var(--vo-fg-0);
 }
 
 .theme-light ::-webkit-scrollbar-thumb,
