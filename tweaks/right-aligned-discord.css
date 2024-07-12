@@ -47,5 +47,5 @@ div[id^="popout_"]:has([class^="browser"]) {
 }
 
 div[id^="popout_"]:has([id="emoji-picker-tab-panel"]) {
-    transform: translateX(-70%);
+    transform: translateX(50%);
 }
