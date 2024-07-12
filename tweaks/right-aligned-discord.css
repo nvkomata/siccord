@@ -42,7 +42,10 @@ div[class*=members], div[class*=userPanelOuter] {
 }
 
 div[id^="popout_"]:has([aria-label="Pinned Messages"]),
-div[id^="popout_"]:has([class^="browser"]),
-div[id^="popout_"]:has([id="emoji-picker-tab-panel"]) {
+div[id^="popout_"]:has([class^="browser"]) {
     transform: translateX(70%);
+}
+
+div[id^="popout_"]:has([id="emoji-picker-tab-panel"]) {
+    transform: translateX(-70%);
 }
