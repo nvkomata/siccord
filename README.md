@@ -17,7 +17,7 @@ a modern discord theme based on [vencord-theme](https://github.com/Synqat/vencor
     - you're on your own, i don't care
 
 ### why the name?
-it's what i cook human meat on, and like, come on, doesn't the theme just remind you of **oil**? :troll: (currently covering myself in it)
+it's what i cook human meat on, and like, come on, doesn't the theme just remind you of **oil**? <img src="https://www.pngall.com/wp-content/uploads/2016/05/Trollface.png" height="22px"> (currently covering myself in it)
 
 ### found a bug? have a suggestion?
 make an issue on this repo
