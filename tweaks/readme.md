@@ -3,6 +3,8 @@
 all of these snippets work on their own without the base theme, you're free to copy, modify and distribute them as you wish  
 tl;dr this repo is free game
 
+---
+
 ### Chat bubbles
 
 ```
@@ -16,11 +18,15 @@ https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/chat-bubble
 
 </details>
 
+---
+
 ### Resizable Sidebar
 
 ```
 https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/resizable-sidebar.css
 ```
+
+---
 
 ### Right Aligned Layout
 ```
@@ -33,3 +39,13 @@ https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/right-align
 ![right aligned layout preview](/tweaks/previews/ral.png)
 
 </details>
+
+if using in combination with chat bubbles tweak, put this in your quickcss
+
+```css
+div[id^="popout_"]:has([id="emoji-picker-tab-panel"]) {
+    transform: translateX(-30%);
+}
+```
+
+---
