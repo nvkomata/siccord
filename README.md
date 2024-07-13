@@ -1,5 +1,6 @@
 # vegetable-oil
-a modern discord theme based on [vencord-theme](https://github.com/Synqat/vencord-theme), with fixes and improvements
+a modern discord theme based on [vencord-theme](https://github.com/Synqat/vencord-theme), 
+with fixes, improvements and [additional optional tweaks](https://github.com/nvkomata/vegetable-oil/tree/main/tweaks#welcome-to-veggie-oil-tweaks)
 
 ![screenshot](screenshot.png)
 
@@ -21,3 +22,6 @@ it's what i cook human meat on, and like, come on, doesn't the theme just remind
 
 ### found a bug? have a suggestion?
 make an issue on this repo
+
+### do you like this theme and/or its tweaks?
+give it a star ⭐ c:

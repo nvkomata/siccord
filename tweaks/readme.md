@@ -7,6 +7,11 @@ tl;dr this repo is free game
 
 ### Chat bubbles
 
+> [!IMPORTANT]  
+> for your own message bubbles to be right aligned and highlighted, you need this vencord plugin
+>
+> ![you need this](image.png)
+
 ```
 https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/chat-bubbles.css
 ```
@@ -39,13 +44,3 @@ https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/right-align
 ![right aligned layout preview](/tweaks/previews/ral.png)
 
 </details>
-
-if using in combination with chat bubbles tweak, put this in your quickcss
-
-```css
-div[id^="popout_"]:has([id="emoji-picker-tab-panel"]) {
-    transform: translateX(-30%);
-}
-```
-
----
