@@ -1,6 +1,6 @@
 /* chat bubbles */
 
-li[id^="chat-messages-"] [class*="message_"]:not([class*="systemMessage"]) {
+[class*="message_"]:not([class*="systemMessage"]) {
     background: var(--background-secondary);
     border: 1px solid var(--background-modifier-active);
     padding: 0.75rem;
