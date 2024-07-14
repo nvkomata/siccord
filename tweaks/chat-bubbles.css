@@ -58,6 +58,26 @@
     background-color: color-mix(in srgb, var(--brand-500) 30%, white);
 }
 
+[data-list-id="chat-messages"] li[id^="chat-messages-"]:has([class*="mentioned"]) {
+    background: color-mix(in srgb, var(--background-mentioned) 60%, var(--bg-overlay-1));
+}
+[data-list-id="chat-messages"] li[id^="chat-messages-"]:has([class*="mentioned"])>[class*="message"] {
+    border-color: color-mix(in srgb, var(--info-warning-foreground) 60%, var(--bg-overlay-1));
+}
+[data-list-id="chat-messages"] li[id^="chat-messages-"]:has([class*="mentioned"])>[class*="message"]::before {
+    display: none;
+}
+
+[data-list-id="chat-messages"] li[id^="chat-messages-"]:has([class*="replying"]) {
+    background: color-mix(in srgb, var(--brand-500) 20%, var(--bg-overlay-1));
+}
+[data-list-id="chat-messages"] li[id^="chat-messages-"]:has([class*="replying"])>[class*="message"] {
+    border-color: color-mix(in srgb, var(--brand-500) 60%, var(--bg-overlay-1));
+}
+[data-list-id="chat-messages"] li[id^="chat-messages-"]:has([class*="replying"])>[class*="message"]::before {
+    display: none;
+}
+
 li[id^="chat-messages-"] [class*="message_"]:not([class*="systemMessage"]) {
     background: var(--background-secondary);
     border: 1px solid var(--background-modifier-active);
