@@ -8,7 +8,7 @@ tl;dr this repo is free game
 ### Chat bubbles
 
 > [!IMPORTANT]  
-> for your own message bubbles to be right aligned and highlighted, you need this vencord plugin
+> for your own message bubbles to be right aligned and highlighted, you need the "ThemeAttributes" vencord plugin
 >
 > ![you need this](image.png)
 
