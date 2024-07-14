@@ -83,7 +83,7 @@ li[id^="chat-messages-"] [class*="message_"]:not([class*="systemMessage"]) {
     border: 1px solid var(--background-modifier-active);
     padding: 0.75rem;
     border-radius: 0.75rem;
-    margin: 0.05rem 3rem 0 4rem;
+    margin: 0.05rem 3rem 0.05rem 4rem;
     width: fit-content;
     max-width: calc(100% - 10rem);
 }
