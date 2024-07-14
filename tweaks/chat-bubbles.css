@@ -1,6 +1,64 @@
 /* chat bubbles */
 
-[class*="message_"]:not([class*="systemMessage"]) {
+li[data-is-self="true"]>[class^="message"]>[class*="contents_"] {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+li[data-is-self="true"]>[class^="message"] h3[aria-labelledby*="message-username"] {
+    /*margin: 0.5em -1.5em -0.5em 0.5em; /* <- right aligned margin */
+    margin: 0.5em 0em -0.5em -0.25em; /* <- left aligned margin */
+    align-self: flex-start;
+}
+
+li[data-is-self="true"]>[class^="message"]>[id^="message-accessories-"] {
+    margin-top: 0.75rem;
+}
+
+li[id^="chat-messages-"] [class^="mosaicItem_"] [class^="hoverButtonGroup"] {
+    border: 1px solid var(--background-modifier-active);
+    outline: none;
+}
+
+li[id^="chat-messages-"] [class^="buttons_"] {
+    margin-right: -2rem;
+    border: 1px solid var(--background-modifier-active);
+    padding: 0;
+    border-radius: 4px;
+}
+
+li[id^="chat-messages-"]:hover>[class^="message_"] {
+    background: var(--background-secondary);
+}
+.theme-dark.mouse-mode.full-motion li[id^="chat-messages-"]>[class^="message_"]:hover {
+    background: var(--background-secondary);
+}
+li[id^="chat-messages-"]:hover {
+    background: color-mix(in srgb, var(--background-modifier-selected) 70%, var(--bg-overlay-1));
+}
+li[id^="chat-messages-"]:hover [class^="buttons_"] {
+    opacity: 1;
+    pointer-events: all;
+}
+
+li[data-is-self="true"]:hover>[class^="message"] {
+    background-color: color-mix(in srgb, var(--brand-500) 30%, black);
+}
+
+.theme-light li[data-is-self="true"]:hover>[class^="message"] {
+    background-color: color-mix(in srgb, var(--brand-500) 30%, white);
+}
+
+.theme-dark.mouse-mode.full-motion li[data-is-self="true"]>[class^="message"]:hover {
+    background-color: color-mix(in srgb, var(--brand-500) 30%, black);
+}
+
+.theme-light.mouse-mode.full-motion li[data-is-self="true"]>[class^="message"]:hover {
+    background-color: color-mix(in srgb, var(--brand-500) 30%, white);
+}
+
+li[id^="chat-messages-"] [class*="message_"]:not([class*="systemMessage"]) {
     background: var(--background-secondary);
     border: 1px solid var(--background-modifier-active);
     padding: 0.75rem;
@@ -60,62 +118,4 @@ li[data-is-self="true"]>[class^="message"] div[class*="repliedMessage_"]::before
     -webkit-transform: scaleX(-1);
     left: 100%;
     right: calc(-1*(.5*var(--avatar-size) + var(--gutter)));
-}
-
-li[data-is-self="true"]>[class^="message"]>[class*="contents_"] {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
-}
-
-li[data-is-self="true"]>[class^="message"] h3[aria-labelledby*="message-username"] {
-    /*margin: 0.5em -1.5em -0.5em 0.5em; /* <- right aligned margin */
-    margin: 0.5em 0em -0.5em -0.25em; /* <- left aligned margin */
-    align-self: flex-start;
-}
-
-li[data-is-self="true"]>[class^="message"]>[id^="message-accessories-"] {
-    margin-top: 0.75rem;
-}
-
-li[id^="chat-messages-"] [class^="mosaicItem_"] [class^="hoverButtonGroup"] {
-    border: 1px solid var(--background-modifier-active);
-    outline: none;
-}
-
-li[id^="chat-messages-"] [class^="buttons_"] {
-    margin-right: -2rem;
-    border: 1px solid var(--background-modifier-active);
-    padding: 0;
-    border-radius: 4px;
-}
-
-li[id^="chat-messages-"]:hover>[class^="message_"] {
-    background: var(--background-secondary);
-}
-.theme-dark.mouse-mode.full-motion li[id^="chat-messages-"]>[class^="message_"]:hover {
-    background: var(--background-secondary);
-}
-li[id^="chat-messages-"]:hover {
-    background: color-mix(in srgb, var(--background-modifier-selected) 70%, var(--bg-overlay-1));
-}
-li[id^="chat-messages-"]:hover [class^="buttons_"] {
-    opacity: 1;
-    pointer-events: all;
-}
-
-li[data-is-self="true"]:hover>[class^="message"] {
-    background-color: color-mix(in srgb, var(--brand-500) 30%, black);
-}
-
-.theme-light li[data-is-self="true"]:hover>[class^="message"] {
-    background-color: color-mix(in srgb, var(--brand-500) 30%, white);
-}
-
-.theme-dark.mouse-mode.full-motion li[data-is-self="true"]>[class^="message"]:hover {
-    background-color: color-mix(in srgb, var(--brand-500) 30%, black);
-}
-
-.theme-light.mouse-mode.full-motion li[data-is-self="true"]>[class^="message"]:hover {
-    background-color: color-mix(in srgb, var(--brand-500) 30%, white);
 }
