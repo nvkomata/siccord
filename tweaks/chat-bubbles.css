@@ -1,5 +1,7 @@
 /* chat bubbles */
 
+/*timestamp positioning for self bubbles*/
+
 [data-list-id="chat-messages"]  li[data-is-self="true"]>[class^="message"]>[class*="contents_"] {
     display: flex;
     flex-direction: column-reverse;
@@ -16,6 +18,8 @@
     margin-top: 0.75rem;
 }
 
+/*styling for message and attachment actions*/
+
 [data-list-id="chat-messages"] li[id^="chat-messages-"] [class^="mosaicItem_"] [class^="hoverButtonGroup"] {
     border: 1px solid var(--background-modifier-active);
     outline: none;
@@ -27,6 +31,8 @@
     padding: 0;
     border-radius: 4px;
 }
+
+/*hover effects*/
 
 [data-list-id="chat-messages"] li[id^="chat-messages-"]:hover>[class^="message_"] {
     background: var(--background-secondary);
@@ -58,6 +64,8 @@
     background-color: color-mix(in srgb, var(--brand-500) 30%, white);
 }
 
+/*message highlights*/
+
 [data-list-id="chat-messages"] li[id^="chat-messages-"]:has([class*="mentioned"]) {
     background: color-mix(in srgb, var(--background-mentioned) 60%, var(--bg-overlay-1));
 }
@@ -65,6 +73,16 @@
     border-color: color-mix(in srgb, var(--info-warning-foreground) 60%, var(--bg-overlay-1));
 }
 [data-list-id="chat-messages"] li[id^="chat-messages-"]:has([class*="mentioned"])>[class*="message"]::before {
+    display: none;
+}
+
+[data-list-id="chat-messages"] li[id^="chat-messages-"]:has([class*="ephemeral"]) {
+    background: color-mix(in srgb, var(--brand-500) 10%, var(--bg-overlay-1));
+}
+[data-list-id="chat-messages"] li[id^="chat-messages-"]:has([class*="ephemeral"])>[class*="message"] {
+    border-color: color-mix(in srgb, var(--brand-500) 50%, var(--bg-overlay-1));
+}
+[data-list-id="chat-messages"] li[id^="chat-messages-"]:has([class*="ephemeral"])>[class*="message"]::before {
     display: none;
 }
 
@@ -77,6 +95,8 @@
 [data-list-id="chat-messages"] li[id^="chat-messages-"]:has([class*="replying"])>[class*="message"]::before {
     display: none;
 }
+
+/*main bubbles*/
 
 li[id^="chat-messages-"] [class*="message_"]:not([class*="systemMessage"]) {
     background: var(--background-secondary);
@@ -138,4 +158,10 @@ li[class^="card_"] [class^="message_"] {
     -webkit-transform: scaleX(-1);
     left: 100%;
     right: calc(-1*(.5*var(--avatar-size) + var(--gutter)));
+}
+
+[class*="gridContainer"]>[class*="grid"] [class*="embedDescription"]>[class^="message_"] {
+    margin: 0.1rem 0.1rem 0.1rem 2rem;
+    max-width: 95%;
+    --custom-message-margin-left-content-cozy: 10px;
 }
