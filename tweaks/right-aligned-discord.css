@@ -47,7 +47,7 @@ div[id^="popout_"]:has([class^="browser"]) {
 }
 
 div[id^="popout_"]:has([id="emoji-picker-tab-panel"]),
-div[id^="popout_"]:has([class*="recentMentionsPopout_"]){
+div[id^="popout_"]:has([class*="recentMentionsPopout_"]) {
     left: 0.5em !important; /* why is this required? because discord devs suck and can't make their layout responsive or flexible in any way */
     right: unset !important
 }
