@@ -52,3 +52,10 @@ https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/right-align
 ```
 https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/square-off.css
 ```
+
+<details>
+<summary><i>Click to open a preview of this tweak</i></summary>
+
+![square off preview](https://github.com/user-attachments/assets/d99640c7-ca60-4c19-9006-c394f0dc1d5e)
+
+</details>
