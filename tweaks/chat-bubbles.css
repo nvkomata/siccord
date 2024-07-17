@@ -47,6 +47,9 @@
     opacity: 1;
     pointer-events: all;
 }
+[data-list-id="chat-messages"] li[id^="chat-messages-"]:hover [class*="timestampVisibleOnHover"] {
+    opacity: 1;
+}
 
 [data-list-id="chat-messages"] li[data-is-self="true"]:hover>[class^="message"] {
     background-color: color-mix(in srgb, var(--brand-500) 30%, black);
