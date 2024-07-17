@@ -1,0 +1,16 @@
+/* makes everything a square! (or a polygon of some sorts) */
+
+#app-mount * {
+    border-radius: 0;
+}
+
+foreignObject[mask*="url(#"] {
+    mask: none;
+    -webkit-mask: none;
+}
+
+[class^="sidebar"]>[class^="privateChannels"] foreignObject[mask*="url(#"],
+section[class^="panels_"] div[class^="container_"] foreignObject[mask*="url(#"],
+[class^="tabBody"] [class^="peopleColumn_"] foreignObject[mask*="url(#"] {
+    clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
+}

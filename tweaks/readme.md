@@ -44,3 +44,11 @@ https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/right-align
 ![right aligned layout preview](/tweaks/previews/ral.png)
 
 </details>
+
+---
+
+### Make everything a square (or polygon)
+
+```
+https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/square-off.css
+```
