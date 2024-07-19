@@ -595,6 +595,13 @@ div[class*=messageAttachment] canvas[class*=waveform] {
     color: var(--text-muted);
 }
 
+[id="slate-toolbar"] button {
+    color: var(--vo-fg-1);
+}
+[id="slate-toolbar"] button:hover {
+    color: var(--vo-fg-0);
+}
+
 @media only screen and (max-width: 1024px) {
     div[class^="contentColumn_"] {
         max-width: 60%;
