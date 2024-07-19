@@ -37,6 +37,12 @@ Tweaks used: [Chat Bubbles](https://github.com/nvkomata/vegetable-oil/tree/main/
 ### why the name?
 it's what i cook human meat on, and like, come on, doesn't the theme just remind you of **oil**? <img src="https://www.pngall.com/wp-content/uploads/2016/05/Trollface.png" height="22px"> (currently covering myself in it)
 
+### extra juicy color schemes!
+*these get me oiled up in a jiffy*
+
+> [!NOTE]
+> coming soon™️
+
 ### found a bug? have a suggestion?
 make an issue on this repo
 
