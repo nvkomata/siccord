@@ -10,16 +10,16 @@ tl;dr this repo is free game
 > [!IMPORTANT]  
 > for your own message bubbles to be right aligned and highlighted, you need the "ThemeAttributes" vencord plugin
 >
-> ![you need this](image.png)
+> ![you need this](https://github.com/user-attachments/assets/6f2b2867-531d-4ff4-ae34-f1bb7b30c86f)
 
 ```
 https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/chat-bubbles.css
 ```
 
 <details>
-<summary><i>Click to open a preview of this tweak</i></summary>
+<summary><i>Tap to open a preview of this tweak</i></summary>
 
-![chat bubbles preview](/tweaks/previews/chatbubbles.png)
+![chat bubbles preview](https://github.com/user-attachments/assets/1bdf1b24-55ab-482e-b2d2-f48d3318ce39)
 
 </details>
 
@@ -39,9 +39,9 @@ https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/right-align
 ```
 
 <details>
-<summary><i>Click to open a preview of this tweak</i></summary>
+<summary><i>Tap to open a preview of this tweak</i></summary>
 
-![right aligned layout preview](/tweaks/previews/ral.png)
+![right aligned layout preview](https://github.com/user-attachments/assets/7be38aab-6826-47a7-9941-e922468057d3)
 
 </details>
 
@@ -56,6 +56,6 @@ https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/square-off.
 <details>
 <summary><i>Click to open a preview of this tweak</i></summary>
 
-![square off preview](https://github.com/user-attachments/assets/d99640c7-ca60-4c19-9006-c394f0dc1d5e)
+![square off preview](https://github.com/user-attachments/assets/6632aff4-154c-4b46-8f36-7c03ac891c14)
 
 </details>
