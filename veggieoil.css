@@ -479,10 +479,6 @@ main[class*=chatContent] {
     padding: 8px 0 4px 8px;
 }
 
-[id*=message-content] code {
-    max-height: 240px;
-}
-
 form[class*=form]::before {
     display: none;
 }
