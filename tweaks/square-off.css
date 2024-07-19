@@ -15,3 +15,7 @@ section[class^="panels_"] div[class^="container_"] foreignObject[mask*="url(#"],
 [class*="members"] foreignObject[mask*="url(#"] {
     clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
 }
+
+svg[class*="slider_"]>rect {
+    rx: 0;
+}
