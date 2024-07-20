@@ -168,3 +168,10 @@ li[class^="card_"] [class^="message_"] {
     max-width: 95%;
     --custom-message-margin-left-content-cozy: 10px;
 }
+
+li[id^="chat-messages-"]>[class^="message"][class*="groupStart"]::after {
+    display: none;
+}
+li[id^="chat-messages-"]>[class^="message"][class*="groupStart"] [id^="message-accessories"]>[class^="container"] {
+    max-width: 100%;
+}
