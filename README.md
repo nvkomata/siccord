@@ -1,6 +1,7 @@
 <div align="center">
 
-# VEGETABLE-OIL
+# ![vegetable-oil](https://github.com/user-attachments/assets/576b679e-9c3f-44d3-95e8-a608a7c81bc9)
+
 a modern discord theme based on [vencord-theme](https://github.com/Synqat/vencord-theme), 
 with fixes, improvements and [additional optional tweaks](https://github.com/nvkomata/vegetable-oil/tree/main/tweaks#welcome-to-veggie-oil-tweaks)
 
