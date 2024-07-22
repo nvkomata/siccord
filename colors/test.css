@@ -1,0 +1,65 @@
+/* color scheme - "test :3" */
+
+html:root {
+    --vo-bg-0-dark: #0f415a;
+    --vo-bg-1-dark: #af4a85;
+    --vo-bg-2-dark: #973663;
+    --vo-bg-3-dark: #5e1238;
+    --vo-bg-4-dark: #440033;
+    --vo-bg-5-dark: #470032;
+    --vo-bg-dim-dark: #4f778b;
+    --vo-bg-word-dark: #50384e;
+    --vo-bg-diff-green-dark: #32361a;
+    --vo-bg-diff-blue-dark: #0d3138;
+    --vo-bg-diff-red-dark: #3c1f1e;
+    --vo-bg-visual-yellow-dark: #473c29;
+    --vo-bg-visual-green-dark: #333e34;
+    --vo-bg-visual-blue-dark: #2e3b3b;
+    --vo-bg-visual-red-dark: #442e2d;
+    --vo-bg-accent-yellow-dark: #d8a656;
+    --vo-bg-accent-green-dark: #a8b665;
+    --vo-bg-accent-red-dark: #ea6962;
+    --vo-fg-0-dark: #d4be98;
+    --vo-fg-1-dark: #ddc7a0;
+    --vo-grey-0-dark: #7c6f64;
+    --vo-grey-1-dark: #918274;
+    --vo-grey-2-dark: #a79a83;
+    --vo-accent-red-dark: #ea6962;
+    --vo-accent-orange-dark: #e78a4f;
+    --vo-accent-yellow-dark: #d8a656;
+    --vo-accent-green-dark: #a8b665;
+    --vo-accent-aqua-dark: #89B48;
+    --vo-accent-blue-dark: #7caea3;
+    --vo-accent-purple-dark: #d3859b;
+    
+    --vo-bg-0-light: #f9d7ef;
+    --vo-bg-1-light: #f5cae2;
+    --vo-bg-2-light: #f2c7dc;
+    --vo-bg-3-light: #f2bce6;
+    --vo-bg-4-light: #efb7da;
+    --vo-bg-5-light: #ebb2ca;
+    --vo-bg-dim-light: #f2c7dc;
+    --vo-bg-word-light: #c7e9f2;
+    --vo-bg-diff-green-light: #e4edc7;
+    --vo-bg-diff-blue-light: #e0e9d3;
+    --vo-bg-diff-red-light: #f8e4c9;
+    --vo-bg-visual-yellow-light: #f9e9bf;
+    --vo-bg-visual-green-light: #dce5c2;
+    --vo-bg-visual-blue-light: #d8e1cc;
+    --vo-bg-visual-red-light: #f0ddc3;
+    --vo-bg-accent-yellow-light: #a96b2d;
+    --vo-bg-accent-green-light: #6f8252;
+    --vo-bg-accent-red-light: #ae5858;
+    --vo-fg-0-light: #644735;
+    --vo-fg-1-light: #503829;
+    --vo-grey-0-light: #a79a83;
+    --vo-grey-1-light: #928374;
+    --vo-grey-2-light: #7c6f64;
+    --vo-accent-red-light: #c14a4a;
+    --vo-accent-orange-light: #c35e0a;
+    --vo-accent-yellow-light: #b37109;
+    --vo-accent-green-light: #6c782e;
+    --vo-accent-aqua-light: #4b7a5d;
+    --vo-accent-blue-light: #45707a;
+    --vo-accent-purple-light: #945e80;
+}
