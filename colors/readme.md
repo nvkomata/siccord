@@ -12,6 +12,10 @@ you see, when you scroll down there's your official options straight from this r
 
 shrimply copy the url and paste it after the main veggie oil one into vencord themes
 
+#### how to make your own?
+
+[tap here](https://github.com/nvkomata/vegetable-oil?tab=readme-ov-file#alternatively-heres-how-to-make-your-own)
+
 ---
 
 ## "Test :3"
