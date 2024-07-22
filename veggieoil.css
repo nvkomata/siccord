@@ -602,6 +602,8 @@ div[class*=messageAttachment] canvas[class*=waveform] {
     color: var(--vo-fg-0);
 }
 
+/* make discord responsive for smaller window sizes */
+
 @media only screen and (max-width: 1024px) {
     div[class^="contentColumn_"] {
         max-width: 60%;
@@ -615,4 +617,8 @@ div[class*=messageAttachment] canvas[class*=waveform] {
 [class^="shop_"] {
     min-width: unset;
     overflow-x: hidden;
+}
+
+[class^=guildListSection] {
+    min-width: unset;
 }
