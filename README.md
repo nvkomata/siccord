@@ -37,11 +37,37 @@ Tweaks used: [Chat Bubbles](https://github.com/nvkomata/vegetable-oil/tree/main/
 ### why the name?
 it's what i cook human meat on, and like, come on, doesn't the theme just remind you of **oil**? <img src="https://www.pngall.com/wp-content/uploads/2016/05/Trollface.png" height="22px"> (currently covering myself in it)
 
-### extra juicy color schemes!
+### featuring extra juicy color schemes!
 *these get me oiled up in a jiffy*
 
-> [!NOTE]
-> coming soon™️
+[> click here to view them! <](https://github.com/nvkomata/vegetable-oil/tree/main/colors#welcome-to-veggie-oil-color-schemes)
+
+<details>
+<summary>
+    
+#### alternatively, here's how to make your own
+    
+</summary>
+
+---
+
+to make your own, you're gonna need some stuff
+
+1. base veggie oil theme locked and loaded
+2. a template, grab it [here](https://github.com/nvkomata/vegetable-oil/blob/main/colors/test.css)!
+3. text editor (i recommend vencord quickcss for this, so you can immediately see your changes)
+
+veggie oil color schemes are 2 sets of variables inside a selector `html:root`, divided by an empty line.
+
+variables for the dark theme are suffixed with `-dark` and light variables with `-light`. simply edit the color codes that come after them to change those theme specific colors!
+
+![screenshot of quickcss](https://github.com/user-attachments/assets/f26d2161-b042-407b-a694-b84cc44eb070)
+
+lastly, when you're done, you can simply leave it as is and use it. or PR it here for others to enjoy. :p 
+
+---
+
+</details>
 
 ### found a bug? have a suggestion?
 make an issue on this repo
