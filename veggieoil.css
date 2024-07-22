@@ -622,3 +622,9 @@ div[class*=messageAttachment] canvas[class*=waveform] {
 [class^=guildListSection] {
     min-width: unset;
 }
+
+[class*=contentTransitionWrap] [class^=toolsContainer] { /*esc X button in user settings*/
+    position: fixed;
+    right: -1rem;
+    top: -1rem;
+}
