@@ -4,7 +4,7 @@
     /* set your width that the sidebar will default to */
     --side-default-width: 160px;
 }
-div[class*=sidebar] {
+div[class*=sidebar_] {
     min-width: 160px;
     max-width: 240px;
     width: var(--side-default-width);
