@@ -408,25 +408,29 @@ div[class*=sidebar]:has(div[aria-label="User Settings"]) {
     margin-right: 0px;
 }
 
-div[class*=container] div[class*=base]:not([class*=baseLayer]):not([class*=member]):not([class*=typing]):not([class*=numberBadge]) {
+div[class*=baseLayer]>div[class*=container]>div[class*=base] {
     padding-right: 16px;
     padding-bottom: 16px;
 }
 
-div[class*=container] div[class*=base]:not([class*=baseLayer]):not([class*=member]):not([class*=typing]):not([class*=numberBadge]) div[class*=chat] {
+div[class*=baseLayer]>div[class*=container]>div[class*=base] {
     --bg-overlay-chat: var(--vo-bg-dim);
 }
 
-section[class*=title] {
+[class^=shop], [class*=shopScroll] [class*=pageWrapper], [class^=applicationStore] {
+    background-color: var(--vo-bg-dim);
+}
+
+section[class*=themed] {
     margin-bottom: 16px;
 }
 
 div[class*=sidebar],
-section[class*=title],
+section[class*=themed],
 div[class*=members],
 div[class*=userPanelOuter],
 main[class*=chatContent] {
-    border-radius: 8px;
+    border-radius: var(--radius-md);
     overflow: hidden;
 }
 
