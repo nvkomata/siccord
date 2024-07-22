@@ -14,7 +14,7 @@ div[class*="baseLayer_"]>div[class^="container_"] {
     flex-direction: row-reverse;
 }
 
-div[class*=container] div[class*=base]:not([class*=baseLayer]):not([class*=member]):not([class*=typing]):not([class*=numberBadge]) {
+div[class*=baseLayer]>div[class*=container]>div[class*=base] {
     padding-right: 0;
     padding-left: 16px;
 }
