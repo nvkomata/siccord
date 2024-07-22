@@ -1,7 +1,11 @@
+<div align="center">
+
 # welcome to veggie oil tweaks!
 
 all of these snippets work on their own without the base theme, you're free to copy, modify and distribute them as you wish  
 tl;dr this repo is free game
+
+</div>
 
 ---
 
