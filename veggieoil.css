@@ -611,3 +611,8 @@ div[class*=messageAttachment] canvas[class*=waveform] {
         position: fixed;
     }
 }
+
+[class^="shop_"] {
+    min-width: unset;
+    overflow-x: hidden;
+}
