@@ -1,0 +1,15 @@
+[class^=channelTextArea_] [class*=markup] {
+    font-size: 90%;
+    line-height: 1.2rem;
+}
+[class^=channelTextArea_] [class^=buttons_]>[class^=expression-picker] {
+    width: 32px;
+}
+[class^=channelTextArea_] [class^=buttons_]>[aria-haspopup="dialog"] {
+    width: 32px;
+    transform: translateX(4px);
+}
+[class^=expression-picker]:has(button[aria-label*=sticker]),
+[class^=expression-picker]:has(button[aria-label*=GIF]) {
+    display: none;
+}

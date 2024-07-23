@@ -63,3 +63,18 @@ https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/square-off.
 ![square off preview](https://github.com/user-attachments/assets/6632aff4-154c-4b46-8f36-7c03ac891c14)
 
 </details>
+
+---
+
+### Compact channel text area
+
+```
+https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/compact-text-area.css
+```
+
+<details>
+<summary><i>Click to open a preview of this tweak</i></summary>
+
+preview
+
+</details>
