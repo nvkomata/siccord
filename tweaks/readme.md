@@ -75,6 +75,12 @@ https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/compact-tex
 <details>
 <summary><i>Click to open a preview of this tweak</i></summary>
 
-preview
+before:
+
+![before](https://github.com/user-attachments/assets/5b8f263e-cc56-4f78-9d14-54efb973b47b)
+
+after:
+
+![after](https://github.com/user-attachments/assets/e56dbc43-e038-4200-90e8-af72ddfbc7c5)
 
 </details>
