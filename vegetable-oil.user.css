@@ -1,0 +1,16 @@
+@-moz-document domain("discord.com") {
+    /* ==UserStyle==
+    @name         Vegetable Oil
+    @description  a modern discord theme based on vencord-theme
+    @author       nvkomata
+    @namespace    https://github.com/nvkomata/vegetable-oil
+    @version      69.420
+    ==/UserStyle== */
+
+@import url('https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/vegetable-oil.theme.css');
+
+/* want to add something on top, like a color scheme or a tweak? import the links below this line the same way as here ^^^ */
+
+
+
+}

@@ -32,7 +32,10 @@ Tweaks used: [Chat Bubbles](https://github.com/nvkomata/vegetable-oil/tree/main/
       https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/vegetable-oil.theme.css
       ```
 
-2. other ways
+2. stylus
+    - [click here to install with stylus](https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/vegetable-oil.user.css)
+
+3. other ways
     - you're on your own, i don't care
 
 ### why the name?
