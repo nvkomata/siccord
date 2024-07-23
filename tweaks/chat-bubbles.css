@@ -2,19 +2,19 @@
 
 /*timestamp positioning for self bubbles*/
 
-[data-list-id="chat-messages"]  li[data-is-self="true"]>[class^="message"]>[class*="contents_"] {
+[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"]:not([class*="systemMessage"])>[class*="contents_"] {
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-end;
 }
 
-[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"] h3[aria-labelledby*="message-username"] {
+[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"]:not([class*="systemMessage"]) h3[aria-labelledby*="message-username"] {
     /*margin: 0.5em -1.5em -0.5em 0.5em; /* <- right aligned margin */
     margin: 0.5em 0em -0.5em -0.25em; /* <- left aligned margin */
     align-self: flex-start;
 }
 
-[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"]>[id^="message-accessories-"] {
+[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"]:not([class*="systemMessage"])>[id^="message-accessories-"] {
     margin-top: 0.75rem;
 }
 
@@ -34,10 +34,10 @@
 
 /*hover effects*/
 
-[data-list-id="chat-messages"] li[id^="chat-messages-"]:hover>[class^="message_"] {
+[data-list-id="chat-messages"] li[id^="chat-messages-"]:hover>[class^="message_"]:not([class*="systemMessage"]) {
     background: var(--background-secondary);
 }
-.theme-dark.mouse-mode.full-motion [data-list-id="chat-messages"] li[id^="chat-messages-"]>[class^="message_"]:hover {
+.theme-dark.mouse-mode.full-motion [data-list-id="chat-messages"] li[id^="chat-messages-"]>[class^="message_"]:not([class*="systemMessage"]):hover {
     background: var(--background-secondary);
 }
 [data-list-id="chat-messages"] li[id^="chat-messages-"]:hover {
@@ -51,19 +51,19 @@
     opacity: 1;
 }
 
-[data-list-id="chat-messages"] li[data-is-self="true"]:hover>[class^="message"] {
+[data-list-id="chat-messages"] li[data-is-self="true"]:hover>[class^="message"]:not([class*="systemMessage"]) {
     background-color: color-mix(in srgb, var(--brand-500) 30%, black);
 }
 
-.theme-light [data-list-id="chat-messages"] li[data-is-self="true"]:hover>[class^="message"] {
+.theme-light [data-list-id="chat-messages"] li[data-is-self="true"]:hover>[class^="message"]:not([class*="systemMessage"]) {
     background-color: color-mix(in srgb, var(--brand-500) 30%, white);
 }
 
-.theme-dark.mouse-mode.full-motion [data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"]:hover {
+.theme-dark.mouse-mode.full-motion [data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"]:not([class*="systemMessage"]):hover {
     background-color: color-mix(in srgb, var(--brand-500) 30%, black);
 }
 
-.theme-light.mouse-mode.full-motion [data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"]:hover {
+.theme-light.mouse-mode.full-motion [data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"]:not([class*="systemMessage"]):hover {
     background-color: color-mix(in srgb, var(--brand-500) 30%, white);
 }
 
@@ -121,42 +121,42 @@ li[class^="card_"] [class^="message_"] {
     margin: 0.25rem 0;
 }
 
-[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"] {
+[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"]:not([class*="systemMessage"]) {
     background-color: color-mix(in srgb, var(--brand-500) 40%, black);
 }
 
-[data-list-id="chat-messages"] .theme-light li[data-is-self="true"]>[class^="message"] {
+[data-list-id="chat-messages"] .theme-light li[data-is-self="true"]>[class^="message"]:not([class*="systemMessage"]) {
     background-color: color-mix(in srgb, var(--brand-500) 40%, white);
 }
 
-[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"] {
+[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"]:not([class*="systemMessage"]) {
     margin-left: auto;
     margin-right: 3.5em;
     max-width: calc(100% - 12rem);
     padding-right: 2rem !important; /* why is this required? because discord devs suck and used !important in their own css */
 }
 
-[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"] img[class*="avatar"] {
+[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"]:not([class*="systemMessage"]) img[class*="avatar"] {
     margin-left: auto;
     right: 0;
     margin-right: -3em;
 }
 
-[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"] h3[aria-labelledby*="message-username"]>span:not([class^="timestamp_"]) {
+[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"]:not([class*="systemMessage"]) h3[aria-labelledby*="message-username"]>span:not([class^="timestamp_"]) {
     display: none;
 }
 
-[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"] h3[aria-labelledby*="message-username"]>span {
+[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"]:not([class*="systemMessage"]) h3[aria-labelledby*="message-username"]>span {
     float: right;
 }
 
-[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"] div[class*="repliedMessage_"] {
+[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"]:not([class*="systemMessage"]) div[class*="repliedMessage_"] {
     flex-direction: row-reverse;
     gap: 0.25rem;
     margin-right: -1.6rem;
 }
 
-[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"] div[class*="repliedMessage_"]::before {
+[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"]:not([class*="systemMessage"]) div[class*="repliedMessage_"]::before {
     transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
     left: 100%;
