@@ -421,7 +421,7 @@ section[class*=themed] {
     margin-bottom: 16px;
 }
 
-div[class*=sidebar],
+div[class*=content_]>div[class*="sidebar_"],
 section[class*=themed],
 div[class*=members],
 div[class*=userPanelOuter],
