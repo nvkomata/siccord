@@ -400,12 +400,8 @@
     background-color: var(--vo-bg-dim);
 }
 
-div[class*=sidebar] {
+div[class*=content_]>div[class*="sidebar_"] {
     margin-right: 16px;
-}
-
-div[class*=sidebar]:has(div[aria-label="User Settings"]) {
-    margin-right: 0px;
 }
 
 div[class*=baseLayer]>div[class*=container]>div[class*=base] {
