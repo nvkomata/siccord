@@ -1,6 +1,6 @@
 <div align="center">
 
-# welcome to veggie oil tweaks!
+# tweaks
 
 all of these snippets work on their own without the base theme, you're free to copy, modify and distribute them as you wish  
 tl;dr this repo is free game
@@ -17,7 +17,7 @@ tl;dr this repo is free game
 > ![you need this](https://github.com/user-attachments/assets/6f2b2867-531d-4ff4-ae34-f1bb7b30c86f)
 
 ```
-https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/chat-bubbles.css
+https://raw.githubusercontent.com/nvkomata/discord-theme/main/tweaks/chat-bubbles.css
 ```
 
 <details>
@@ -32,14 +32,14 @@ https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/chat-bubble
 ### Resizable Sidebar
 
 ```
-https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/resizable-sidebar.css
+https://raw.githubusercontent.com/nvkomata/discord-theme/main/tweaks/resizable-sidebar.css
 ```
 
 ---
 
 ### Right Aligned Layout
 ```
-https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/right-aligned-discord.css
+https://raw.githubusercontent.com/nvkomata/discord-theme/main/tweaks/right-aligned-discord.css
 ```
 
 <details>
@@ -54,7 +54,7 @@ https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/right-align
 ### Make everything a square (or polygon)
 
 ```
-https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/square-off.css
+https://raw.githubusercontent.com/nvkomata/discord-theme/main/tweaks/square-off.css
 ```
 
 <details>
@@ -69,7 +69,7 @@ https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/square-off.
 ### Compact channel text area
 
 ```
-https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/tweaks/compact-text-area.css
+https://raw.githubusercontent.com/nvkomata/discord-theme/main/tweaks/compact-text-area.css
 ```
 
 <details>
