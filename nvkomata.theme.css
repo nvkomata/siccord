@@ -7,7 +7,7 @@
  * @website         https://github.com/nvkomata/discord-theme
 */
 
-@import "https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/veggieoil.css";
+@import "https://raw.githubusercontent.com/nvkomata/discord-theme/main/base.css";
 
 :root {
     --vo-bg-0-dark: #1e2021;
