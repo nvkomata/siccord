@@ -426,7 +426,7 @@ section[class*=themed],
 div[class*=members],
 div[class*=userPanelOuter],
 main[class*=chatContent] {
-    border-radius: var(--radius-md);
+    border-radius: var(--radius-xs);
     overflow: hidden;
 }
 
