@@ -624,3 +624,13 @@ div[class*=messageAttachment] canvas[class*=waveform] {
     right: -1rem;
     top: -1rem;
 }
+
+[class*="themed_"] [class^="children_"] [role="tablist"] {
+    overflow-x: scroll;
+}
+[class*="themed_"] [class^="children_"] [role="tablist"]::-webkit-scrollbar {
+    height: 0px;
+}
+[class*="themed_"]:hover [class^="children_"] [role="tablist"]::-webkit-scrollbar {
+    height: 1px;
+}
