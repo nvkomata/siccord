@@ -7,20 +7,7 @@ with fixes, improvements and [additional optional tweaks](https://github.com/nvk
 
 </div>
 
-![screenshot](https://github.com/user-attachments/assets/ec30d667-1ce6-41a4-8dcb-6724e8752a16)
-
-<details>
-    <summary>tap to preview the theme with tweaks applied</summary>
-
----
-
-Tweaks used: [Chat Bubbles](https://github.com/nvkomata/discord-theme/tree/main/tweaks#chat-bubbles), [Resizable Sidebar](https://github.com/nvkomata/discord-theme/tree/main/tweaks#resizable-sidebar), [Right Aligned Layout](https://github.com/nvkomata/discord-theme/tree/main/tweaks#right-aligned-layout)
-
-![tweaks preview](https://github.com/user-attachments/assets/0d1ae76f-d5fb-4e58-a45d-1159caaa3e82)
-
----
-
-</details>
+![screenshot](https://github.com/user-attachments/assets/2d5f748b-6745-41db-b299-a929b50c943e)
 
 ### how to install?
 
@@ -32,23 +19,19 @@ Tweaks used: [Chat Bubbles](https://github.com/nvkomata/discord-theme/tree/main/
   https://raw.githubusercontent.com/nvkomata/discord-theme/main/nvkomata.theme.css
   ```
 
-### featuring extra juicy color schemes!
+### featuring some extra juicy color schemes
 
-[> click <](https://github.com/nvkomata/discord-theme/tree/main/colors#welcome-to-veggie-oil-color-schemes)
+[> click here to view them <](https://github.com/nvkomata/discord-theme/tree/main/colors#welcome-to-veggie-oil-color-schemes)
 
 <details>
-<summary>
-    
-###### alternatively, here's how to make your own
-    
-</summary>
+<summary>...alternatively, here's how to make your own</summary>
 
 ---
 
 to make your own, you're gonna need some stuff
 
 1. base theme locked and loaded
-2. a template, grab it [here](https://github.com/nvkomata/discord-theme/blob/main/colors/test.css)!
+2. a template, grab it [here](https://github.com/nvkomata/discord-theme/blob/main/colors/test.css)
 3. text editor (i recommend vencord quickcss for this, so you can immediately see your changes)
 
 color schemes are 2 sets of variables inside a selector `html:root`, divided by an empty line.
