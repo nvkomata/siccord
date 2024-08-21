@@ -14,11 +14,6 @@ div[class*="baseLayer_"]>div[class^="container_"] {
     flex-direction: row-reverse;
 }
 
-div[class*=baseLayer]>div[class*=container]>div[class*=base] {
-    padding-right: 0;
-    padding-left: 16px;
-}
-
 div[class^="container_"]>div[class^="base"]>div[class^="content"] {
     flex-direction: row-reverse;
 }
@@ -29,16 +24,6 @@ div[class^="chat_"]>[class^="header_"]+[class^="content"] {
 
 div[class^="chat_"]>div[class^="content_"] {
     flex-direction: row-reverse;
-}
-
-div[class*=content_]>div[class*=sidebar] {
-    margin-right: 0px;
-    margin-left: 16px;
-}
-
-div[class*=members], div[class*=userPanelOuter] {
-    margin-left: 0;
-    margin-right: 16px;
 }
 
 div[id^="popout_"]:has([class*="messagesPopoutWrap_"]),

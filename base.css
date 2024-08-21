@@ -385,6 +385,14 @@
     --yellow-860: var(--vo-accent-yellow);
     --yellow-900: var(--vo-accent-yellow);
     --embed-title: var(--vo-fg-0);
+
+    --shadow-border: 0 0 0 1px hsla(0, 0%, 100%, 0.15);
+    --shadow-high: 0 4px 12px 0 hsla(0, 0%, 0%, 0.5);
+    --radius-sm: 4px;
+}
+
+[href="https://support.discord.com"] {
+    display: none;
 }
 
 .theme-light ::-webkit-scrollbar-thumb,
@@ -400,15 +408,6 @@
     background-color: var(--vo-bg-dim);
 }
 
-div[class*=content_]>div[class*="sidebar_"] {
-    margin-right: 16px;
-}
-
-div[class*=baseLayer]>div[class*=container]>div[class*=base] {
-    padding-right: 16px;
-    padding-bottom: 16px;
-}
-
 div[class*=baseLayer]>div[class*=container]>div[class*=base] {
     --bg-overlay-chat: var(--vo-bg-dim);
 }
@@ -417,26 +416,15 @@ div[class*=baseLayer]>div[class*=container]>div[class*=base] {
     background-color: var(--vo-bg-dim);
 }
 
-section[class*=themed] {
-    margin-bottom: 16px;
-}
-
-div[class*=content_]>div[class*="sidebar_"],
-section[class*=themed],
-div[class*=members],
-div[class*=userPanelOuter],
-main[class*=chatContent] {
-    border-radius: var(--radius-xs);
-    overflow: hidden;
-}
-
-div[class*=members],
-div[class*=userPanelOuter] {
-    margin-left: 16px;
-}
-
 section[class*=panels] div[class*=container] {
     margin-bottom: unset;
+    border-top: 1px solid var(--border-subtle);
+    border-radius: var(--radius-xs);
+}
+
+section[class*=panels] {
+    padding-top: 2px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
 }
 
 div[class*=members] [class*=member] {
@@ -559,6 +547,99 @@ svg[class*=artwork] {
     border: 1px solid var(--border-faint);
 }
 
+[class^=content]>[class^="sidebar_"] {
+    margin: 8px;
+    border-radius: var(--radius-xs);
+    border-top: 1px solid var(--border-strong);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+section[class*="themed_"] [class*=tabBar] [class*="item"] {
+    border-top: 1px solid var(--border-subtle);
+}
+
+[class^=actions] [role="button"], button[class*=lookFilled] {
+    border-top: 1px solid var(--border-subtle);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+[class*="channelTextArea_"] {
+    border-radius: var(--radius-xs);
+    border-bottom: 1px solid var(--border-strong);
+}
+[class*="channelTextArea_"]>[class*="scrollableContainer"] {
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+[class*=menu_] {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+[class*=menu_]>[class^=scroller] {
+    box-shadow: inset 0 0 0 1px var(--border-subtle);
+    border-radius: 5px;
+}
+
+section[class*="themed_"] {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+}
+
+[class*="peopleListItem_"]:hover {
+    border-radius: 4px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+[class*="optionButtonWrapper"], [class*="prompt_"] {
+    border-radius: 4px;
+    border: none;
+    border-top: 1px solid var(--border-subtle);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+[class*="lastChannel"] {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+[class*="firstChannel"] {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+li[class*=container_], [class*=link_] {
+    border-radius: 3px;
+}
+[class*="interactiveSelected"], [class*="modeSelected"]>div>a, [class*="modeSelected"]>[class*=basicChannel] {
+    box-shadow: inset 0 0 2px 1px var(--border-subtle);
+}
+
+
+[class^=search_] [class^="searchBar_"] {
+    width: max-content;
+    min-width: 80px;
+    max-width: 180px;
+    border-radius: 2px;
+    border-bottom: 1px solid var(--border-strong);
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+[class^=accountProfilePopoutWrapper_] {
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.7);
+}
+[class*="biteSizeOuter_"] {
+    border-radius: var(--radius-xs);
+    border: 1px solid var(--border-subtle);
+    border-top: 1px solid var(--border-strong);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+}
+
+main[class*=chatContent]>div[class^=messagesWrapper] {
+    margin-bottom: 8px;
+}
+form[class*=form] {
+    padding-top: 12px;
+}
+
+
 div[data-list-id^=forum-channel-list-]>div[role=list],
 div[data-list-id^=forum-channel-list-] div[class*=card_] {
     min-width: 10rem;
@@ -630,7 +711,4 @@ div[class*=messageAttachment] canvas[class*=waveform] {
 }
 [class*="themed_"] [class^="children_"] [role="tablist"]::-webkit-scrollbar {
     height: 0px;
-}
-[class*="themed_"]:hover [class^="children_"] [role="tablist"]::-webkit-scrollbar {
-    height: 1px;
 }
