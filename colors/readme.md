@@ -12,14 +12,18 @@ shrimply copy the url and paste it after the main veggie oil one into vencord th
 
 #### how to make your own?
 
-[tap here](https://github.com/nvkomata/vegetable-oil?tab=readme-ov-file#alternatively-heres-how-to-make-your-own)
+[tap here](https://github.com/nvkomata/discord-theme?tab=readme-ov-file#alternatively-heres-how-to-make-your-own)
 
 ---
+
+## "vencord colorscheme"
+
+```
+https://raw.githubusercontent.com/nvkomata/discord-theme/main/colors/vencord.css
+```
 
 ## "Test :3"
 
 ```
-https://raw.githubusercontent.com/nvkomata/vegetable-oil/main/colors/test.css
+https://raw.githubusercontent.com/nvkomata/discord-theme/main/colors/test.css
 ```
-
-![Screenshot_20240722_163852](https://github.com/user-attachments/assets/8c97b631-0413-4bdc-892d-0fd5f5cf1ecc)
