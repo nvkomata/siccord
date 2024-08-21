@@ -6,13 +6,9 @@
 
 #### how to use a color scheme?
 
-you see, when you scroll down there's your official options straight from this repo!
+you see, when you scroll down there's your official options straight from this repo
 
-shrimply copy the url and paste it after the main veggie oil one into vencord themes
-
-#### how to make your own?
-
-[tap here](https://github.com/nvkomata/discord-theme?tab=readme-ov-file#alternatively-heres-how-to-make-your-own)
+shrimply copy the url and paste it after the base theme link into vencord themes
 
 ---
 
