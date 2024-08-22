@@ -50,4 +50,4 @@ make an issue on this repo, sillyhead
 -> ⭐
 
 ### looking for "vegetable-oil" (fork of vencord-theme by Synqat)?
-i'll move it soon to it's own repo and link it here, for now consider it a non-priority though
+https://github.com/nvkomata/vencord-theme
