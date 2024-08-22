@@ -2,8 +2,7 @@
 
 # nvkomata's discord theme
 
-a modern discord theme based on [vencord-theme](https://github.com/Synqat/vencord-theme), 
-with fixes, improvements and [additional optional tweaks](https://github.com/nvkomata/discord-theme/tree/main/tweaks#welcome-to-veggie-oil-tweaks)
+the theme that will blow your socks off and blow up your discord. in a good way.
 
 </div>
 
