@@ -749,3 +749,39 @@ div[class*=messageAttachment] canvas[class*=waveform] {
 [class*="themed_"] [class^="children_"] [role="tablist"]::-webkit-scrollbar {
     height: 0px;
 }
+
+/* attribution in settings */
+
+div[class*="layer_"] div[class*="standardSidebarView_"] div[class*="sidebarRegion_"] div[class*="sidebarRegionScroller_"] nav[class*="sidebar_"] div[class*="side_"]>div[class*="clickTarget_"]>div[class*="copiableWrapper_"]>div[class*="childWrapper_"] div[class*="info_"] {
+    background: linear-gradient(to bottom, #5ccefa, #5ccefa 20%, #f6a8b7 20%, #f6a8b7 40%, #fff 40%, #fff 60%, #f6a8b7 60%, #f6a8b7 80%, #5ccefa 80%, #5ccefa);
+    background-position: right bottom, center center;
+    background-repeat: no-repeat, repeat;
+    --text-muted: black;
+
+    span {
+        font-family: monospace;
+        font-weight: bold;
+    }
+
+    &:before {
+        content: "industrycatcord themed \a\a";
+        text-transform: none;
+        color: var(--text-muted);
+        font-family: monospace;
+        white-space: pre;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: bold;
+    }
+
+    margin-bottom: 1rem;
+}
+div[class*="layer_"] div[class*="standardSidebarView_"] div[class*="sidebarRegion_"] div[class*="sidebarRegionScroller_"] nav[class*="sidebar_"] div[class*="side_"]>div[class*="clickTarget_"]>div[class*="copiableWrapper_"]>div[class*="childWrapper_"] {
+    &:after {
+        content: "Thank you for using industrycatcord";
+        text-transform: none;
+        font-weight: bold;
+        font-style: italic;
+        color: var(--text-muted);
+    }
+}
