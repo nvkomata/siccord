@@ -15,7 +15,7 @@ the theme that will blow your socks off and blow up your discord. in a good way.
 - go to "online themes" in the "themes" tab under "vencord"
 - paste this link into the text box, one link per line
   ```
-  https://raw.githubusercontent.com/nvkomata/industrycatcord/main/nvkomata.theme.css
+  https://raw.githubusercontent.com/nvkomata/industrycatcord/main/icc.theme.css
   ```
 
 ### featuring some extra juicy color schemes
