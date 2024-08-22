@@ -201,17 +201,6 @@
     --orange-830: var(--vo-accent-orange);
     --orange-860: var(--vo-accent-orange);
     --orange-900: var(--vo-accent-orange);
-    --primary-100: var(--vo-bg-1);
-    --primary-130: var(--vo-bg-1);
-    --primary-160: var(--vo-bg-1);
-    --primary-200: var(--vo-bg-1);
-    --primary-230: var(--vo-bg-1);
-    --primary-260: var(--vo-bg-1);
-    --primary-300: var(--vo-bg-1);
-    --primary-330: var(--vo-bg-1);
-    --primary-345: var(--vo-bg-1);
-    --primary-360: var(--vo-bg-1);
-    --primary-400: var(--vo-bg-1);
     --primary-430: var(--vo-bg-1);
     --primary-460: var(--vo-bg-1);
     --primary-500: var(--vo-bg-1);
@@ -416,6 +405,8 @@ div[class*=baseLayer]>div[class*=container]>div[class*=base] {
     background-color: var(--vo-bg-dim);
 }
 
+/* user panel */
+
 section[class*=panels] div[class*=container] {
     margin-bottom: unset;
     border-top: 1px solid var(--border-subtle);
@@ -426,6 +417,8 @@ section[class*=panels] {
     padding-top: 2px;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
 }
+
+/* stuff i cba to comment and color fixes */
 
 div[class*=members] [class*=member] {
     background: unset;
@@ -547,6 +540,8 @@ svg[class*=artwork] {
     border: 1px solid var(--border-faint);
 }
 
+/* sidebar */
+
 [class^=content]>[class^="sidebar_"] {
     margin: 8px;
     border-radius: var(--radius-xs);
@@ -554,14 +549,14 @@ svg[class*=artwork] {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
 
-section[class*="themed_"] [class*=tabBar] [class*="item"] {
-    border-top: 1px solid var(--border-subtle);
-}
+/* buttons */
 
 [class^=actions] [role="button"], button[class*=lookFilled] {
     border-top: 1px solid var(--border-subtle);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
+
+/* channel text area */
 
 [class*="channelTextArea_"] {
     border-radius: var(--radius-xs);
@@ -571,6 +566,27 @@ section[class*="themed_"] [class*=tabBar] [class*="item"] {
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.4);
 }
 
+form[class^=form_]>div[class^=wrapper_] {
+    border-top: 1px solid var(--border-strong);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+[class*=expressionPickerPositionLayer_] section[class^=positionContainer] {
+    border-top: 1px solid var(--border-strong);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    border-radius: var(--radius-sm);
+
+    div[class^=contentWrapper_] {
+        border-radius: var(--radius-sm);
+
+        div[class^=navList_] button[role="tab"] {
+            border-top: 1px solid var(--border-strong);
+        }
+    }
+}
+
+/* context menus */
+
 [class*=menu_] {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
 }
@@ -579,15 +595,24 @@ section[class*="themed_"] [class*=tabBar] [class*="item"] {
     border-radius: 5px;
 }
 
+/* channel top header section */
+
+section[class*="themed_"] [class*=tabBar] [class*="item"] {
+    border-top: 1px solid var(--border-subtle);
+}
+
 section[class*="themed_"] {
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
 }
+
+/* friends list item */
 
 [class*="peopleListItem_"]:hover {
     border-radius: 4px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
 }
 
+/* channel and role list pages */
 
 [class*="optionButtonWrapper"], [class*="prompt_"] {
     border-radius: 4px;
@@ -612,6 +637,7 @@ li[class*=container_], [class*=link_] {
     box-shadow: inset 0 0 2px 1px var(--border-subtle);
 }
 
+/* search bar */
 
 [class^=search_] [class^="searchBar_"] {
     width: max-content;
@@ -621,6 +647,8 @@ li[class*=container_], [class*=link_] {
     border-bottom: 1px solid var(--border-strong);
     box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);
 }
+
+/* profile popouts */
 
 [class^=accountProfilePopoutWrapper_] {
     box-shadow: 0 2px 16px rgba(0, 0, 0, 0.7);
@@ -632,12 +660,16 @@ li[class*=container_], [class*=link_] {
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
 }
 
+/* main chat content positioning */
+
 main[class*=chatContent]>div[class^=messagesWrapper] {
     margin-bottom: 8px;
 }
 form[class*=form] {
     padding-top: 12px;
 }
+
+/* popout styling */
 
 [id*="popout"]:not([id*="popout"]:has([id^=SEARCH_OPTIONS])) div[class^=header_] {
     border-top: 1px solid var(--border-strong);
@@ -650,13 +682,19 @@ form[class*=form] {
     border: 1px solid var(--border-strong);
 }
 
+/* some tabs */
+
 [class*=TabSection] [class^=tab_] {
     border-top: 1px solid var(--border-strong);
 }
 
+/* popup backdrop */
+
 [class^=layerContainer_]:has([class^=backdrop_]) {
     backdrop-filter: blur(4px);
 }
+
+/* quick switcher */
 
 [class^="quickswitcher_"] {
     border-top: 1px solid var(--border-strong);
@@ -676,11 +714,14 @@ form[class*=form] {
     margin: 0 6px;
 }
 
+/* forum channel */
 
 div[data-list-id^=forum-channel-list-]>div[role=list],
 div[data-list-id^=forum-channel-list-] div[class*=card_] {
     min-width: 10rem;
 }
+
+/* other stuffs */
 
 html:root {
     --vc-membercount-color: var(--vo-fg-0);
@@ -696,6 +737,8 @@ html:root {
     background-color: var(--vo-bg-diff-red);
     border-left: 4px solid var(--vo-accent-red);
 }
+
+/* some message stuff */
 
 div[class*=messageAttachment] div[class*=ripple] {
     --brand-500: var(--vo-bg-5);
