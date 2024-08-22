@@ -386,8 +386,8 @@
     --yellow-900: var(--vo-accent-yellow);
     --embed-title: var(--vo-fg-0);
 
-    --shadow-border: 0 0 0 1px hsla(0, 0%, 100%, 0.15);
-    --shadow-high: 0 4px 12px 0 hsla(0, 0%, 0%, 0.5);
+    --shadow-border: 0 0 0 1px hsla(0, 0%, 100%, 0.05);
+    --shadow-high: 0 4px 12px 1px hsla(0, 0%, 0%, 0.7);
     --radius-sm: 4px;
 }
 
@@ -637,6 +637,43 @@ main[class*=chatContent]>div[class^=messagesWrapper] {
 }
 form[class*=form] {
     padding-top: 12px;
+}
+
+[id*="popout"]:not([id*="popout"]:has([id^=SEARCH_OPTIONS])) div[class^=header_] {
+    border-top: 1px solid var(--border-strong);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 4px 4px 0 0;
+    box-shadow: 0 1px 11px 1px rgba(0, 0, 0, 0.6);
+}
+
+[role="listbox"]:has([aria-labelledby^="SEARCH_"]) {
+    border: 1px solid var(--border-strong);
+}
+
+[class*=TabSection] [class^=tab_] {
+    border-top: 1px solid var(--border-strong);
+}
+
+[class^=layerContainer_]:has([class^=backdrop_]) {
+    backdrop-filter: blur(4px);
+}
+
+[class^="quickswitcher_"] {
+    border-top: 1px solid var(--border-strong);
+    border-bottom: 1px solid rgb(36, 36, 36);
+    border-left: 1px solid var(--border-faint);
+    border-right: 1px solid var(--border-faint);
+    box-shadow: 0 4px 12px black;
+}
+[class^="quickswitcher_"] input[class^=input] {
+    box-shadow: inset 0 1px 8px 1px rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid var(--border-strong);
+}
+[class^="quickswitcher_"] div[class*=result_] {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    border-top: 1px solid var(--border-subtle);
+    border-radius: var(--radius-xs);
+    margin: 0 6px;
 }
 
 
