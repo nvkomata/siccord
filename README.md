@@ -1,6 +1,6 @@
 <div align="center">
 
-# nvkomata's discord theme
+# industrycatcord `(ﾐ>ᆺ<ﾐ)`
 
 the theme that will blow your socks off and blow up your discord. in a good way.
 
@@ -15,12 +15,12 @@ the theme that will blow your socks off and blow up your discord. in a good way.
 - go to "online themes" in the "themes" tab under "vencord"
 - paste this link into the text box, one link per line
   ```
-  https://raw.githubusercontent.com/nvkomata/discord-theme/main/nvkomata.theme.css
+  https://raw.githubusercontent.com/nvkomata/industrycatcord/main/nvkomata.theme.css
   ```
 
 ### featuring some extra juicy color schemes
 
-[> click here to view them <](https://github.com/nvkomata/discord-theme/tree/main/colors#welcome-to-veggie-oil-color-schemes)
+[> click here to view them <](https://github.com/nvkomata/industrycatcord/tree/main/colors#welcome-to-veggie-oil-color-schemes)
 
 <details>
 <summary>...alternatively, here's how to make your own</summary>
@@ -30,7 +30,7 @@ the theme that will blow your socks off and blow up your discord. in a good way.
 to make your own, you're gonna need some stuff
 
 1. base theme locked and loaded
-2. a template, grab it [here](https://github.com/nvkomata/discord-theme/blob/main/colors/test.css)
+2. a template, grab it [here](https://github.com/nvkomata/industrycatcord/blob/main/colors/test.css)
 3. text editor (i recommend vencord quickcss for this, so you can immediately see your changes)
 
 color schemes are 2 sets of variables inside a selector `html:root`, divided by an empty line.
@@ -43,5 +43,11 @@ variables for the dark theme are suffixed with `-dark` and light variables with 
 
 </details>
 
+### saw a buggy stinky smelly bug in someplace or another?
+make an issue on this repo, sillyhead
+
 ### do you like this theme and/or its tweaks?
 -> ⭐
+
+### looking for "vegetable-oil" (fork of vencord-theme by Synqat)?
+i'll move it soon to it's own repo and link it here, for now consider it a non-priority though

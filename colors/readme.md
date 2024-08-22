@@ -15,11 +15,11 @@ shrimply copy the url and paste it after the base theme link into vencord themes
 ## "vencord colorscheme"
 
 ```
-https://raw.githubusercontent.com/nvkomata/discord-theme/main/colors/vencord.css
+https://raw.githubusercontent.com/nvkomata/industrycatcord/main/colors/vencord.css
 ```
 
 ## "Test :3"
 
 ```
-https://raw.githubusercontent.com/nvkomata/discord-theme/main/colors/test.css
+https://raw.githubusercontent.com/nvkomata/industrycatcord/main/colors/test.css
 ```

@@ -1,6 +1,7 @@
 /* color scheme - "test :3" */
 
 html:root {
+    /* dark theme */
     --vo-bg-0-dark: #0f415a;
     --vo-bg-1-dark: #af4a85;
     --vo-bg-2-dark: #973663;
@@ -32,6 +33,7 @@ html:root {
     --vo-accent-blue-dark: #7caea3;
     --vo-accent-purple-dark: #d3859b;
     
+    /* light theme */
     --vo-bg-0-light: #f9d7ef;
     --vo-bg-1-light: #f5cae2;
     --vo-bg-2-light: #f2c7dc;

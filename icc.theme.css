@@ -1,13 +1,13 @@
 /**
- * @name            nvkomata's discord theme
+ * @name            industrycatcord
  * @author          nvkomata
- * @version         1.0
- * @description     bottom text
- * @source          https://github.com/nvkomata/discord-theme
- * @website         https://github.com/nvkomata/discord-theme
+ * @version         1.2.3
+ * @description     a theme to blow up this thingnvkomata/discord-theme
+ * @source          https://github.com/nvkomata/industrycatcord
+ * @website         https://github.com/nvkomata/industrycatcord
 */
 
-@import "https://raw.githubusercontent.com/nvkomata/discord-theme/main/base.css";
+@import "https://raw.githubusercontent.com/nvkomata/industrycatcord/main/base.css";
 
 :root {
     --vo-bg-0-dark: #232627;
