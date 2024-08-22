@@ -393,9 +393,7 @@
     --bg-mod-faint: var(--vo-bg-2);
 }
 
-[class*=membersWrap] {
-    background-color: var(--vo-bg-dim);
-}
+
 
 div[class*=baseLayer]>div[class*=container]>div[class*=base] {
     --bg-overlay-chat: var(--vo-bg-dim);
@@ -403,6 +401,21 @@ div[class*=baseLayer]>div[class*=container]>div[class*=base] {
 
 [class^=shop], [class*=shopScroll] [class*=pageWrapper], [class^=applicationStore] {
     background-color: var(--vo-bg-dim);
+}
+
+/* members list */
+
+aside[class*=membersWrap] {
+    background-color: var(--vo-bg-dim);
+}
+aside[class*=membersWrap] {
+    min-width: 200px;
+    border-right: 1px solid var(--border-strong);
+    border-left: 1px solid var(--border-strong);
+}
+div[class*=members] {
+    width: 200px;
+    background-color: transparent;
 }
 
 /* user panel */
@@ -444,11 +457,6 @@ input[class*=inputDefault] {
 
 div[class*=searchBar] {
     background-color: var(--vo-bg-dim);
-}
-
-div[class*=members] {
-    padding: 8px;
-    background-color: var(--vo-bg-word);
 }
 
 main[class*=chatContent] {
@@ -603,6 +611,36 @@ section[class*="themed_"] [class*=tabBar] [class*="item"] {
 
 section[class*="themed_"] {
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+}
+
+/* jump to present & new messages bars */
+
+[class^=jumpToPresentBar] {
+    border-radius: var(--radius-xs) var(--radius-xs) 0 0;
+    border-top: 1px solid var(--border-subtle);
+    backdrop-filter: blur(8px);
+    background-color: color-mix(in srgb, var(--background-accent) 50%, #00000050);
+    opacity: 1;
+    transition: box-shadow 0.1s ease-out;
+    box-shadow: 0 -5px 12px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+        box-shadow: 0 -8px 22px rgba(0, 0, 0, 0.5);
+    }
+}
+
+[class^=newMessagesBar] {
+    border-radius: 0 0 var(--radius-xs) var(--radius-xs);
+    border-bottom: 1px solid var(--border-subtle);
+    backdrop-filter: blur(8px);
+    background-color: color-mix(in srgb, var(--bg-brand) 30%, #00000050);
+    opacity: 1;
+    transition: box-shadow 0.1s ease-out;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+        box-shadow: 0 8px 22px rgba(0, 0, 0, 0.5);
+    }
 }
 
 /* friends list item */
