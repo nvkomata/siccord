@@ -378,10 +378,7 @@
     --shadow-border: 0 0 0 1px hsla(0, 0%, 100%, 0.05);
     --shadow-high: 0 4px 12px 1px hsla(0, 0%, 0%, 0.7);
     --radius-sm: 4px;
-}
-
-[href="https://support.discord.com"] {
-    display: none;
+    --custom-emoji-picker-border-radius: var(--radius-xs);
 }
 
 .theme-light ::-webkit-scrollbar-thumb,
@@ -393,14 +390,17 @@
     --bg-mod-faint: var(--vo-bg-2);
 }
 
-
-
 div[class*=baseLayer]>div[class*=container]>div[class*=base] {
     --bg-overlay-chat: var(--vo-bg-dim);
 }
 
 [class^=shop], [class*=shopScroll] [class*=pageWrapper], [class^=applicationStore] {
     background-color: var(--vo-bg-dim);
+}
+
+/* get rid of the shit no one wants to see */
+[href="https://support.discord.com"], [class^=upsellContainer] {
+    display: none;
 }
 
 /* members list */
@@ -557,6 +557,10 @@ svg[class*=artwork] {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
 
+div[class^=voiceChannelsButton_] {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
 /* buttons */
 
 [class^=actions] [role="button"], button[class*=lookFilled] {
@@ -619,6 +623,12 @@ form[class^=form_]>div[class^=wrapper_] {
 [class*=menu_]>[class^=scroller] {
     box-shadow: inset 0 0 0 1px var(--border-subtle);
     border-radius: 5px;
+}
+
+[id*="quickreact-"]>[class^=button_] {
+    border-top: 1px solid var(--border-strong);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 /* channel top header section */
@@ -685,6 +695,11 @@ section[class*="themed_"] {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
+div[class^=channelRow_] {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-left: 1px solid var(--border-subtle);
+    border-right: 1px solid var(--border-subtle);
+}
 
 li[class*=container_], [class*=link_] {
     border-radius: 3px;
@@ -693,7 +708,7 @@ li[class*=container_], [class*=link_] {
     box-shadow: inset 0 0 2px 1px var(--border-subtle);
 }
 
-/* search bar */
+/* search bars */
 
 [class^=search_] [class^="searchBar_"] {
     width: max-content;
@@ -703,6 +718,13 @@ li[class*=container_], [class*=link_] {
     border-bottom: 1px solid var(--border-strong);
     box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);
 }
+
+div[class*=searchBar]:not([class*=sidebar] [class*=searchBar]),
+[id="sticker-picker-tab-panel"] [class^=wrapper_]>[class*=medium_] {
+    border-bottom: 1px solid var(--border-strong);
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
 
 /* profile popouts */
 
@@ -714,6 +736,16 @@ li[class*=container_], [class*=link_] {
     border: 1px solid var(--border-subtle);
     border-top: 1px solid var(--border-strong);
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+}
+
+/* activity */
+
+[class*=biteSizeInner_] [class^=activityBiteSizePopout_] {
+    border-radius: var(--radius-xs);
+    border: 2px solid var(--border-subtle);
+}
+[class*=activity] img[class*=assetsLargeImage] {
+    border-radius: var(--radius-xs)/2;
 }
 
 /* main chat content positioning and seperation */
@@ -743,15 +775,37 @@ form[class*=form] {
 
 /* popout styling */
 
-[id*="popout"]:not([id*="popout"]:has([id^=SEARCH_OPTIONS])) div[class^=header_] {
+[class^=messagesPopoutWrap_]>[class^=header_],
+[class^=browser_]>[class^=header_],
+[class*=recentMentions]>[class^=header_],
+[id="emoji-picker-tab-panel"]>[class^=header_] {
     border-top: 1px solid var(--border-strong);
     border-bottom: 1px solid rgba(0, 0, 0, 0.6);
-    border-radius: 4px 4px 0 0;
+    border-radius: var(--radius-xs) var(--radius-xs) 0 0;
     box-shadow: 0 1px 11px 1px rgba(0, 0, 0, 0.6);
+
+    [class^=controls]>[class^=button_] {
+        border-top: 1px solid var(--border-strong);
+        margin-top: -0.5em;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    div>[class^=friendRequestsButton_] {
+        border: 1px solid var(--border-faint);
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
+    }
+}
+[class^=browser_] {
+    border-radius: var(--radius-xs);
 }
 
 [role="listbox"]:has([aria-labelledby^="SEARCH_"]) {
     border: 1px solid var(--border-strong);
+}
+
+
+section[class^=positionContainer_] [class^=drawerSizingWrapper_] [class*=categoryList_] {
+    border-radius: 0 0 0 var(--custom-emoji-picker-border-radius);
 }
 
 /* some tabs */
@@ -764,6 +818,7 @@ form[class*=form] {
     border-radius: var(--radius-xs) var(--radius-xs) 0 0;
     border-left: 1px solid var(--border-subtle);
     border-right: 1px solid var(--border-subtle);
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.25);
     
     margin: 0 2px;
 }
@@ -879,7 +934,11 @@ div[class*=messageAttachment] canvas[class*=waveform] {
     height: 0px;
 }
 
-/* attribution in settings */
+/* attribution in settings + settings sidebar */
+
+div[class*="layer_"] div[class*="standardSidebarView_"] div[class*="sidebarRegion_"] div[class*="sidebarRegionScroller_"] nav[class*="sidebar_"] {
+    border-right: 1px solid var(--border-subtle);
+}
 
 div[class*="layer_"] div[class*="standardSidebarView_"] div[class*="sidebarRegion_"] div[class*="sidebarRegionScroller_"] nav[class*="sidebar_"] div[class*="side_"]>div[class*="clickTarget_"]>div[class*="copiableWrapper_"]>div[class*="childWrapper_"] div[class*="info_"] {
     background: linear-gradient(to bottom, #5ccefa, #5ccefa 20%, #f6a8b7 20%, #f6a8b7 40%, #fff 40%, #fff 60%, #f6a8b7 60%, #f6a8b7 80%, #5ccefa 80%, #5ccefa);
