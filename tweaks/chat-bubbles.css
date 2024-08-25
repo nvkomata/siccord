@@ -175,3 +175,73 @@ li[id^="chat-messages-"]>[class^="message"][class*="groupStart"]::after {
 li[id^="chat-messages-"]>[class^="message"][class*="groupStart"] [id^="message-accessories"]>[class^="container"] {
     max-width: 100%;
 }
+
+/* message group start (msgs with pfp) arrows */
+
+li[id^="chat-messages-"] [class*="message_"]:not([class*="systemMessage"]) {
+    border: 1px solid transparent;
+    margin: 0.2rem 3rem 0.2rem 4rem;
+    border-radius: 4px;
+}
+
+
+[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"]:not([class*="systemMessage"]) {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"][class*=groupStart_]:not([class*="systemMessage"]) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 4px;
+
+    &::before {
+        margin-left: calc(100% + 2.05rem);
+        content: "";
+        display: block;
+        position: relative;
+        background: color-mix(in srgb, var(--brand-500) 40%, black);
+        background: linear-gradient(to top left, transparent 50%, color-mix(in srgb, var(--brand-500) 40%, black) 50%);
+        height: 16px;
+        width: 16px;
+        margin-top: -13px;
+    }
+}
+[data-list-id="chat-messages"] li[data-is-self="false"]>[class^="message"]:not([class*="systemMessage"]) {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+[data-list-id="chat-messages"] li[data-is-self="false"]>[class^="message"][class*=groupStart_]:not([class*="systemMessage"]) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 4px;
+
+    &::before {
+        content: "";
+        display: block;
+        position: relative;
+        background: linear-gradient(to top right, transparent 50%, var(--background-secondary) 50%);
+        height: 16px;
+        width: 16px;
+        margin-left: -1.8rem;
+        margin-top: -13px;
+    }
+}
+
+[data-list-id="chat-messages"] li[data-is-self="false"]>[class^="message"][class*=groupStart_][class*=mentioned_]:not([class*="systemMessage"]) {
+    &::before {
+        background: linear-gradient(to top right, transparent 50%, color-mix(in srgb, var(--info-warning-foreground) 60%, var(--bg-overlay-1)) 50%);
+    }
+}
+[data-list-id="chat-messages"] li[data-is-self="false"]>[class^="message"][class*=groupStart_][class*=replying_]:not([class*="systemMessage"]) {
+    &::before {
+        background: linear-gradient(to top right, transparent 50%, color-mix(in srgb, var(--brand-500) 60%, var(--bg-overlay-1)) 50%);
+    }
+}
+[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"][class*=groupStart_][class*=mentioned_]:not([class*="systemMessage"]) {
+    &::before {
+        background: linear-gradient(to top left, transparent 50%, color-mix(in srgb, var(--info-warning-foreground) 60%, var(--bg-overlay-1)) 50%);
+    }
+}
+[data-list-id="chat-messages"] li[data-is-self="true"]>[class^="message"][class*=groupStart_][class*=replying_]:not([class*="systemMessage"]) {
+    &::before {
+        background: linear-gradient(to top left, transparent 50%, color-mix(in srgb, var(--brand-500) 60%, var(--bg-overlay-1)) 50%);
+    }
+}
