@@ -2,3 +2,7 @@
 [class*="channelBottomBarArea"] [class*="channelAppLauncher"] {
     display: none;
 }
+
+:root {
+    --custom-channel-textarea-app-launcher-button-gap: -32px;
+}
