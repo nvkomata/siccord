@@ -27,9 +27,6 @@
 
 [data-list-id="chat-messages"] li[id^="chat-messages-"] [class^="buttons_"] {
     margin-right: -2rem;
-    border: 1px solid var(--background-modifier-active);
-    padding: 0;
-    border-radius: 4px;
 }
 
 /*hover effects*/
