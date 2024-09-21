@@ -20,7 +20,7 @@ the theme that will blow your socks off and blow up your discord. in a good way.
 
 ### featuring some extra juicy color schemes
 
-[> click here to view them <](https://github.com/nvkomata/industrycatcord/tree/main/colors#welcome-to-veggie-oil-color-schemes)
+[> click here to view them <](COLORS.md)
 
 <details>
 <summary>...alternatively, here's how to make your own</summary>

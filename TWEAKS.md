@@ -20,13 +20,6 @@ tl;dr this repo is free game
 https://raw.githubusercontent.com/nvkomata/industrycatcord/main/tweaks/chat-bubbles.css
 ```
 
-<details>
-<summary><i>Tap to open a preview of this tweak</i></summary>
-
-![chat bubbles preview](https://github.com/user-attachments/assets/1bdf1b24-55ab-482e-b2d2-f48d3318ce39)
-
-</details>
-
 ---
 
 ### Chat Background
@@ -50,13 +43,6 @@ https://raw.githubusercontent.com/nvkomata/industrycatcord/main/tweaks/resizable
 https://raw.githubusercontent.com/nvkomata/industrycatcord/main/tweaks/right-aligned-discord.css
 ```
 
-<details>
-<summary><i>Tap to open a preview of this tweak</i></summary>
-
-![right aligned layout preview](https://github.com/user-attachments/assets/7be38aab-6826-47a7-9941-e922468057d3)
-
-</details>
-
 ---
 
 ### Make everything a square (or polygon)
@@ -64,13 +50,6 @@ https://raw.githubusercontent.com/nvkomata/industrycatcord/main/tweaks/right-ali
 ```
 https://raw.githubusercontent.com/nvkomata/industrycatcord/main/tweaks/square-off.css
 ```
-
-<details>
-<summary><i>Click to open a preview of this tweak</i></summary>
-
-![square off preview](https://github.com/user-attachments/assets/6632aff4-154c-4b46-8f36-7c03ac891c14)
-
-</details>
 
 ---
 
