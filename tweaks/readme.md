@@ -29,6 +29,14 @@ https://raw.githubusercontent.com/nvkomata/industrycatcord/main/tweaks/chat-bubb
 
 ---
 
+### Chat Background
+
+```
+https://raw.githubusercontent.com/nvkomata/industrycatcord/main/tweaks/chat-background.css
+```
+
+---
+
 ### Resizable Sidebar
 
 ```
