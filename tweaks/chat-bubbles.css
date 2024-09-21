@@ -38,7 +38,7 @@
     background: var(--background-secondary);
 }
 [data-list-id="chat-messages"] li[id^="chat-messages-"]:hover {
-    background: color-mix(in srgb, var(--background-modifier-selected) 70%, var(--bg-overlay-1));
+    background: color-mix(in srgb, var(--bg-overlay-2) 70%, #00000000 100%);
 }
 [data-list-id="chat-messages"] li[id^="chat-messages-"]:hover [class^="buttons_"] {
     opacity: 1;
