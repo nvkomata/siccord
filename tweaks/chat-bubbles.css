@@ -238,8 +238,9 @@ li[id^="chat-messages-"] [class*="message_"]:not([class*="systemMessage"]) {
 [id^="message-reply-context-"]::before {
     content: "";
     display: inline-block;
-    width: 3px;
+    width: 1px;
     background-color: var(--header-secondary);
     height: 1.2em;
     margin-right: 0.5em;
+    box-shadow: 1px 0 0 1px var(--header-secondary);
 }
