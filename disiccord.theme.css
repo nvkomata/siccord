@@ -1,0 +1,28 @@
+/**
+ * @name            siccord
+ * @author          nvkomata
+ * @version         infdev
+ * @description     blowing up discord
+ * @source          https://github.com/nvkomata/siccord
+ * @website         https://github.com/nvkomata/siccord
+*/
+
+@import "https://raw.githubusercontent.com/nvkomata/siccord/new/base.css";
+
+:root {
+    --cute-accent-dark: #e9b3c2;
+    --cute-accent-light: #945e80;
+}
+
+/*visual refresh fixes*/
+
+[class^=channelTextArea_]>[class^=scrollable] {
+    overflow-y: hidden;
+    padding-right: 0.5rem;
+}
+[id^=popout_] [class*=scroller] {
+    max-height: 70vh;
+}
+[class*=accountProfilePopoutWrapper_] {
+    left: 0;
+}

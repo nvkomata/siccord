@@ -3,7 +3,7 @@
 can be any image, pattern, whatever */
 
 :root {
-    --chat-bg-img: url('https://raw.githubusercontent.com/nvkomata/industrycatcord/main/tweaks/whatsappbackground.png')
+    --chat-bg-img: url('https://raw.githubusercontent.com/nvkomata/siccord/main/tweaks/whatsappbackground.png')
 }
 
 main[class*=chatContent]>div[class^=messagesWrapper] {
