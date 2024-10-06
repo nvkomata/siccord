@@ -3,10 +3,10 @@
 can be any image, pattern, whatever */
 
 :root {
-    --chat-bg-img: url('https://raw.githubusercontent.com/nvkomata/siccord/main/tweaks/whatsappbackground.png')
+    --chat-bg-img: url('https://raw.githubusercontent.com/nvkomata/siccord/main/tweaks/chatbgsample.png')
 }
 
 main[class*=chatContent]>div[class^=messagesWrapper] {
-    background-image: linear-gradient(to right, color-mix(in srgb, var(--vo-bg-word) 90%, #00000000 50%) 0 100%),var(--chat-bg-img);
+    background-image: linear-gradient(to right, color-mix(in srgb, var(--background-primary) 90%, #00000000 50%) 0 100%),var(--chat-bg-img);
     background-size: cover;
 }
