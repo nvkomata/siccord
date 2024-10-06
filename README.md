@@ -5,7 +5,7 @@
 
 # siccord (ﾐ>ᆺ<ﾐ)
 
-tweaks for your discord to enhance your chatting experience (or make it bearable at least)
+cute little additions for your discord to enhance your chatting experience (or make it bearable at least)
 
 </div>
 
@@ -54,3 +54,9 @@ make an issue on this repo, sillyhead
 
 ### do you like this thing?
 -> ⭐
+
+### where's industrycatcord?
+
+gone, reduced to atoms.
+
+the original theme is shrimply something i cooked up to play into discord's terrible old ui and give it a little retro webapp aesthetic. since discord has been cooking up a ui refresh that isn't half terrible, i'm not going to bother retheming it (it's too much work anyways).
