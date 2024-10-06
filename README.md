@@ -9,6 +9,10 @@ cute little additions for your discord to enhance your chatting experience (or m
 
 </div>
 
+```
+https://raw.githubusercontent.com/nvkomata/siccord/main/siccord.theme.css
+```
+
 ### the tweaks
 
 <details>
