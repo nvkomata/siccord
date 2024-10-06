@@ -17,10 +17,10 @@ tweaks for your discord to enhance your chatting experience (or make it bearable
 #### chat bubbles
 turns your boring, undistinguishable messages into comfy bubbles
 
-> [!IMPORTANT]  
 > for your own message bubbles to be right aligned, you need the "ThemeAttributes" vencord plugin
->
-> ![you need this](https://github.com/user-attachments/assets/6f2b2867-531d-4ff4-ae34-f1bb7b30c86f)
+> 
+> ![screenshot](https://github.com/user-attachments/assets/6e7af20d-2a42-42e0-96cb-4af3e989718a)
+
 
 ```
 https://raw.githubusercontent.com/nvkomata/siccord/new/tweaks/chat-bubbles.css
