@@ -23,28 +23,28 @@ turns your boring, undistinguishable messages into comfy bubbles
 
 
 ```
-https://raw.githubusercontent.com/nvkomata/siccord/new/tweaks/chat-bubbles.css
+https://raw.githubusercontent.com/nvkomata/siccord/main/tweaks/chat-bubbles.css
 ```
 
 #### compact channel text area
 removes the app launcher button and the dedicated gif/sticker buttons
 
 ```
-https://raw.githubusercontent.com/nvkomata/siccord/new/tweaks/compact-text-area.css
+https://raw.githubusercontent.com/nvkomata/siccord/main/tweaks/compact-text-area.css
 ```
 
 #### chat Background
 gives your chat an interesting background
 
 ```
-https://raw.githubusercontent.com/nvkomata/siccord/new/tweaks/chat-background.css
+https://raw.githubusercontent.com/nvkomata/siccord/main/tweaks/chat-background.css
 ```
 
 #### make everything a square (or polygon)
 minecraft
 
 ```
-https://raw.githubusercontent.com/nvkomata/siccord/new/tweaks/square-off.css
+https://raw.githubusercontent.com/nvkomata/siccord/main/tweaks/square-off.css
 ```
 
 </details>
