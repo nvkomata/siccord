@@ -9,8 +9,16 @@ cute little additions for your discord to enhance your chatting experience (or m
 
 </div>
 
-```
+```ruby
 https://raw.githubusercontent.com/nvkomata/siccord/main/siccord.theme.css
+```
+
+want your own accent color? put this in your quickcss and swap out the color codes
+```css
+:root {
+    --cute-accent-dark: #e9b3c2;
+    --cute-accent-light: #945e80;
+}
 ```
 
 ### the tweaks
@@ -26,28 +34,28 @@ turns your boring, undistinguishable messages into comfy bubbles
 > ![screenshot](https://github.com/user-attachments/assets/6e7af20d-2a42-42e0-96cb-4af3e989718a)
 
 
-```
+```b
 https://raw.githubusercontent.com/nvkomata/siccord/main/tweaks/chat-bubbles.css
 ```
 
 #### compact channel text area
 removes the app launcher button and the dedicated gif/sticker buttons
 
-```
+```b
 https://raw.githubusercontent.com/nvkomata/siccord/main/tweaks/compact-text-area.css
 ```
 
 #### chat Background
 gives your chat an interesting background
 
-```
+```b
 https://raw.githubusercontent.com/nvkomata/siccord/main/tweaks/chat-background.css
 ```
 
 #### make everything a square (or polygon)
 minecraft
 
-```
+```b
 https://raw.githubusercontent.com/nvkomata/siccord/main/tweaks/square-off.css
 ```
 
