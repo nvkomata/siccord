@@ -130,12 +130,3 @@ div[class*="layer_"] div[class*="standardSidebarView_"] div[class*="sidebarRegio
 
     margin-bottom: 1rem;
 }
-div[class*="layer_"] div[class*="standardSidebarView_"] div[class*="sidebarRegion_"] div[class*="sidebarRegionScroller_"] nav[class*="sidebar_"] div[class*="side_"] {
-    &:after {
-        content: "Thank you for using industrycatcord";
-        text-transform: none;
-        font-weight: bold;
-        font-style: italic;
-        color: var(--text-muted);
-    }
-}
