@@ -45,6 +45,17 @@
     background-color: var(--cute-accent);
 }
 
+.theme-dark #app-mount, .theme-light #app-mount {
+    --text-brand: var(--cute-accent);
+    --blurple-50: var(--cute-accent);
+}
+
+/* we really dont need nitro upsells. go fuck yourself discord */
+
+[class*="upsell"] {
+    display: none;
+}
+
 /* jump to present & new messages bars */
 
 [class^=jumpToPresentBar] {
@@ -98,7 +109,7 @@
     min-width: unset;
 }
 
-[class*=contentTransitionWrap] [class^=toolsContainer] { /*esc X button in user settings*/
+[class*=contentTransitionWrap] [class^=toolsContainer] { /* esc X button in user settings */
     position: fixed;
     right: -0.5rem;
     top: -0.5rem;
@@ -109,6 +120,14 @@
 }
 [class*="themed_"] [class^="children_"] [role="tablist"]::-webkit-scrollbar {
     height: 0px;
+}
+
+#app-mount [class^="content"]>[class^="page_"] { /* discord keeps breaking their shit and making it unresponsive, yay */
+    min-width: 0;
+}
+
+[class*="sessionIcon_"] {
+    min-width: 48px;
 }
 
 /* attribution in settings + settings sidebar */
